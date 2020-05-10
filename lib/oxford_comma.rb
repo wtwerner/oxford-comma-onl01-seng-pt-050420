@@ -3,4 +3,5 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.count == 3
     array[0,1].join(", ") + ", and #{array[3]}"
+  else
 end
