@@ -3,8 +3,8 @@ def oxford_comma(array)
     array[0]
   elsif array.count == 2 
     array.join(" and ")
-  elsif array.count == 3
-    array[0,1].join(", ") + ", and #{array[3]}"
+  elsif array.count >= 3
+    array.join(", ")
   else
 end
 end
